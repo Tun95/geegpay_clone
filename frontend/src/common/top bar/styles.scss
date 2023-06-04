@@ -1,0 +1,28 @@
+.top_drawer {
+  margin-top: 100px;
+  .listItemButton:hover {
+    background: transparent;
+    font-size: 20px !important;
+  }
+
+  .listItemText {
+    text-align: center;
+    font-size: 28px !important;
+  }
+}
+.drawer_style {
+  margin-top: 100px;
+}
+.drawer_validate {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 60px;
+  button {
+    width: 160px;
+    font-weight: 600;
+  }
+  button:hover {
+    background-color: var(--color-primary-light);
+  }
+}

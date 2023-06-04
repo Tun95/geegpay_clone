@@ -1,0 +1,34 @@
+.information {
+  flex: 2;
+  .information_box {
+    // color: var(--color-white);
+    background-color: var(--color-white);
+    height: 100%;
+    width: 505px;
+    position: fixed;
+    right: 0;
+    .information_content {
+      margin-top: 40%;
+      padding: 0px 80px;
+      .content {
+        color: #414040;
+        .header {
+          margin: 30px 0px;
+        }
+        .list {
+          ul {
+            li {
+              line-height: 35px;
+              .fa-circle-check {
+                margin-right: 10px;
+              }
+              span {
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

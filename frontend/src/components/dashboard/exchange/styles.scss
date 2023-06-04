@@ -1,0 +1,36 @@
+.exchange_data {
+  flex: 5;
+  .exchange_box {
+    border: var(--border-sty);
+    padding: 20px;
+    background-color: var(--color-white);
+    border-radius: 20px;
+    color: var(--color-gray);
+    .box {
+      min-height: 320px;
+      .table_container {
+        margin-top: 30px;
+        .tableHeader {
+          font-weight: 600;
+          color: var(--color-gray);
+          font-size: 16px;
+        }
+        .table_row {
+          .tableCell {
+            font-size: 18px;
+            color: var(--color-gray);
+            .cellWrapper {
+              img {
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-right: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+.reg_stepper {
+  .reg_stepper_box {
+    .reg_stepper_content {
+      //  width: 82%;
+      .logo_back_btn {
+        display: flex;
+        flex-direction: column;
+        img {
+          margin-left: 20px;
+        }
+        .btn_back {
+          width: 130px;
+          background: transparent;
+          color: var(--color-primary);
+          color: var(--color-gray);
+          margin-top: 40px;
+          .icon {
+            font-size: 22px;
+          }
+        }
+      }
+      .content {
+        .content_box {
+          width: 75%;
+          margin-top: 5%;
+          .header_text,
+          .state_business,
+          .terms,
+          .button_btn {
+            width: 100%;
+          }
+          .state_business {
+            .form_group {
+              .label {
+                position: relative;
+                bottom: 20px;
+                color: var(--color-gray);
+                font-size: 15px;
+              }
+              input {
+                border: 1px solid var(--color-light-gray);
+                padding: 15px;
+                color: var(--color-gray);
+                font-size: 15px;
+                width: 100%;
+                border-radius: 10px;
+                margin-bottom: 50px;
+              }
+            }
+          }
+          .terms {
+            font-size: 15px;
+            position: relative;
+            top: 10px;
+            a {
+              color: var(--color-primary);
+            }
+          }
+          .button_btn {
+            padding-top: 30px;
+            .submit_btn {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

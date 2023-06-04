@@ -1,0 +1,58 @@
+.drawer_btn_icon {
+  color: var(--color-gray) !important;
+}
+.drawer_btn_icon:hover {
+  background: transparent !important;
+}
+
+.sub_list {
+  margin-top: 50px !important;
+  .btn_select_right {
+    background: transparent;
+    color: var(--color-gray);
+    border: 1px solid #edefff;
+    font-size: 12px;
+    margin-left: 15px;
+  }
+  .btn_select_right:hover {
+    background: transparent;
+  }
+}
+.drawer_list {
+  font-size: 14px !important;
+  color: var(--color-gray);
+}
+.drawer_icon {
+  font-size: 20px !important;
+}
+
+.user_drawer {
+  position: absolute;
+  bottom: 0;
+  border-top: var(--border-sty);
+  width: 260px;
+
+  .user {
+    width: 100%;
+    .f_flex {
+      padding: 10px 0px;
+      .letter {
+        background-color: #eee;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+      .name {
+        margin: 0px 10px;
+        font-size: 15px;
+      }
+      .icon {
+        .mui_icon {
+          color: var(--color-gray);
+          cursor: pointer;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

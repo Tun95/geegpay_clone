@@ -1,0 +1,35 @@
+.content_width {
+  .dashboard {
+    .transactions {
+      // padding: 0px 85px;
+      margin-bottom: 40px;
+    }
+  }
+}
+/*======= MEDIA QUERIES (SMALL DEVICES) =======*/
+@media screen and (max-width: 1024px) {
+  .content_width {
+    .dashboard {
+      .transactions {
+        padding: 0px 30px;
+      }
+    }
+  }
+}
+/*======= MEDIA QUERIES (SMALL DEVICES) =======*/
+@media screen and (max-width: 767px) {
+  .content_width {
+    .nav_bar {
+      .nav_bar_content {
+        .info_actions {
+          // width: %;
+        }
+      }
+    }
+    .dashboard {
+      .transactions {
+        padding: 0px 10px;
+      }
+    }
+  }
+}

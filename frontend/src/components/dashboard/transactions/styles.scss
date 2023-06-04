@@ -1,0 +1,42 @@
+.transact_data {
+  flex: 5;
+  .transact_box {
+    border: var(--border-sty);
+    padding: 20px;
+    background-color: var(--color-white);
+    border-radius: 20px;
+    color: var(--color-gray);
+    .box {
+      min-height: 320px;
+      .table_container {
+        margin-top: 30px;
+
+        .table_row {
+          .tableCell {
+            font-size: 15px;
+            color: var(--color-gray);
+            .amount:nth-child(odd) {
+              color: var(--color-green);
+            }
+            .cellBtn {
+              background-color: #095516;
+              color: var(--color-white);
+              border-radius: 30px;
+              padding: 10px 15px;
+            }
+          }
+        }
+      }
+      .link {
+        margin-top: 30px;
+        a {
+          color: var(--color-primary-light);
+          font-weight: 600;
+          i {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

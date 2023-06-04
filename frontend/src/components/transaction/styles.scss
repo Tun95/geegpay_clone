@@ -1,0 +1,114 @@
+// ==== TOP BOX==== //
+.top_bar {
+  height: 160px;
+  .top {
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+    .btn_select_right {
+      background-color: var(--color-primary);
+    }
+  }
+  .bottom {
+    margin-top: 70px;
+    .bottom_left {
+      span {
+        color: var(--color-gray);
+      }
+      .btn_select_left {
+        // f5f5f5
+        background-color: #eceff3;
+        color: var(--color-gray);
+        border: none;
+        margin-right: 20px;
+      }
+      .right {
+        margin-left: 20px;
+        font-size: 15px;
+        color: var(--color-light-gray);
+      }
+    }
+    .btn_select_right {
+      color: var(--color-gray);
+      border: 1px solid #edefff;
+    }
+  }
+}
+
+// ==== TRANS==== //
+.transact {
+  flex: 5;
+  .transact_box {
+    // border: var(--border-sty);
+    padding: 1px 20px;
+    background-color: var(--color-white);
+    border-radius: 10px;
+    color: var(--color-gray);
+    .box {
+      min-height: 320px;
+      .table_container {
+        margin-top: 30px;
+        .tableHeader {
+          font-weight: 600;
+          color: var(--color-gray);
+          font-size: 16px;
+        }
+        .table_row {
+          .tableCell {
+            font-size: 15px;
+            color: var(--color-gray);
+            .amount:nth-child(odd) {
+              color: var(--color-green);
+            }
+            .cellBtn {
+              background-color: #095516;
+              color: var(--color-white);
+              border-radius: 30px;
+              padding: 10px 15px;
+            }
+          }
+        }
+      }
+      .link {
+        margin-top: 30px;
+        a {
+          color: var(--color-primary-light);
+          font-weight: 600;
+          i {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*======= MEDIA QUERIES (SMALL DEVICES) =======*/
+@media screen and (max-width: 510px) {
+  .top_bar {
+    .top {
+      .top_left {
+        .icon {
+          font-size: 20px;
+        }
+        input {
+          font-size: 15px;
+        }
+      }
+    }
+    .bottom {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 20px;
+      .bottom_right {
+        margin: 20px 0px;
+      }
+    }
+  }
+}
+/*======= MEDIA QUERIES (SMALL DEVICES) =======*/
+@media screen and (max-width: 388px) {
+  .transact {
+    margin-top: 45px;
+  }
+}

@@ -1,0 +1,48 @@
+.dashboard {
+  background-color: #fafcff;
+  flex: 5;
+  overflow: hidden;
+  .widget {
+    padding: 10px 50px;
+    gap: 15px;
+
+    flex: 5;
+  }
+  .exchange {
+    padding: 10px 50px;
+  }
+  .transactions {
+    padding: 10px 50px;
+  }
+}
+.userDashboard {
+  width: 100%;
+}
+/*======= MEDIA QUERIES (MEDIUM DEVICES) =======*/
+@media screen and (max-width: 1024px) {
+  .dashboard {
+    .widget {
+      flex-direction: column;
+    }
+  }
+}
+/*======= MEDIA QUERIES (MEDIUM DEVICES) =======*/
+@media screen and (max-width: 767px) {
+  .sideBar {
+    display: none;
+  }
+  .dashboard {
+    .slider_box{
+      padding: 20px 10px;
+    }
+    .widget {
+      padding: 10px 20px;
+    }
+    .exchange {
+      padding: 10px 20px;
+    }
+    .transactions {
+      padding: 10px 20px;
+    }
+  }
+}

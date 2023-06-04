@@ -1,0 +1,54 @@
+// ==== TOP BOX==== //
+.invoice_top {
+  height: 100vh;
+  .tab {
+    .tab_title {
+      text-transform: lowercase;
+      margin-top: 50px;
+      font-size: 16px;
+    }
+    .tab_box {
+      min-height: 250px;
+      background: transparent;
+      color: var(--color-gray);
+      box-shadow: var(--box-shadow);
+      .tab_content {
+        text-align: center;
+        .header {
+          font-weight: 600;
+        }
+        .icon {
+          font-size: 30px;
+          color: var(--color-light-gray);
+          margin-top: 30px;
+          margin-bottom: 20px;
+        }
+        p {
+          margin: 10px 0px 30px 0px;
+        }
+        button {
+          border-radius: 30px;
+          font-size: 17px;
+          padding: 8px 20px;
+          margin-top: 5px;
+        }
+      }
+    }
+    /*======= MEDIA QUERIES (SMALL DEVICES) =======*/
+    @media screen and (max-width: 767px) {
+      .tab_title {
+        margin-top: 0;
+      }
+    }
+  }
+  /*======= MEDIA QUERIES (SMALL DEVICES) =======*/
+  @media screen and (max-width: 420px) {
+    .top {
+      flex-direction: column;
+      align-items: flex-start;
+      .top_left {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
